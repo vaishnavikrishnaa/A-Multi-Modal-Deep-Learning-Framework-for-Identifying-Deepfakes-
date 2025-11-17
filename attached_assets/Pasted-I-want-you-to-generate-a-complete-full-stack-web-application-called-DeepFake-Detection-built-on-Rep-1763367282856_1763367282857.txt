@@ -1,0 +1,188 @@
+I want you to generate a complete full-stack web application called DeepFake Detection, built on Replit, with the following requirements:
+
+🔵 APP PURPOSE
+
+The application should allow a user to upload:
+
+Images
+
+Videos
+
+The backend must analyze the uploaded media and predict whether it is real or fake, and return:
+
+The prediction (Real / Fake)
+
+The accuracy/confidence score (%)
+
+A short explanation of the model’s reasoning
+
+🔵 FRONTEND REQUIREMENTS
+
+Create a very beautiful, modern, responsive UI using React + TailwindCSS or HTML/CSS/JS (your choice).
+
+Include:
+
+1. Landing Page
+
+Title: DeepFake Detection
+
+A hero section with animations
+
+A small paragraph:
+✔ What DeepFake Detection is
+✔ Why DeepFake detection is needed
+✔ Risks of deepfakes in society
+✔ How the model works
+
+2. Upload Page
+
+Upload image or video
+
+Show preview
+
+A “Scan for DeepFake” button (stylish)
+
+3. Results Page
+
+Show:
+
+Uploaded media
+
+Label (REAL or FAKE)
+
+Accuracy %
+
+Progress bar animation
+
+Text-based explanation
+
+Beautiful cards, gradients, animations
+
+🔵 BACKEND REQUIREMENTS
+
+Backend must be built using FastAPI (Python).
+
+Features:
+
+Endpoint to upload image
+
+Endpoint to upload video
+
+Run deepfake detection model
+
+Send JSON response with:
+
+label: real/fake
+
+confidence score
+
+reasoning text
+
+🔵 ML MODEL REQUIREMENTS
+
+Implement a model pipeline that uses:
+
+Six reinforcement learning techniques (for improved detection)
+
+Use these RL algorithms:
+
+DQN
+
+Double DQN
+
+Dueling DQN
+
+PPO
+
+A3C
+
+REINFORCE
+
+These must be used for:
+
+Frame selection
+
+Temporal pattern learning
+
+Improving the classifier's accuracy
+
+Unsupervised learning
+
+Use:
+
+Autoencoders
+
+Variational Autoencoders (VAE)
+
+K-means for anomaly detection
+
+PCA for dimensionality reduction
+
+These must help:
+
+Extract facial features
+
+Detect unnatural patterns
+
+Improve prediction accuracy
+
+(If training from scratch takes too long, use pretrained models + integrate RL/unsupervised layers.)
+
+🔵 DATABASE REQUIREMENTS
+
+Include a working database using SQLite or PostgreSQL.
+
+Store:
+
+Upload history
+
+Filename
+
+User ID (dummy)
+
+Prediction result
+
+Confidence score
+
+Timestamp
+
+Important:
+
+Create migrations
+
+Include DB models
+
+🔵 STRUCTURE THE PROJECT
+
+Create this folder structure:
+
+/deepfake-detection
+    /frontend
+    /backend
+        main.py
+        models/
+        routers/
+        utils/
+        database.py
+        ml/
+
+🔵 ADDITIONAL REQUIREMENTS
+
+Provide a README.md
+
+Include installation + running instructions for Replit
+
+Allow cross-origin communication (CORS)
+
+Include sample test images/videos
+
+🔵 FINAL EXPECTATION
+
+At the end, output:
+
+✔ Complete React frontend code
+✔ Complete FastAPI backend code
+✔ ML model code (RL + Unsupervised)
+✔ Database models
+✔ API routes
+✔ Instructions to run everything on Replit
