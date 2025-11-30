@@ -1,0 +1,39 @@
+# macOS junk
+.DS_Store
+
+# Python / venv
+venv/
+__pycache__/
+**/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# FastAPI / SQLite (if you use it)
+*.db
+*.sqlite3
+
+# Node / React
+node_modules/
+frontend/node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build outputs (if any)
+dist/
+build/
+
+# Model weights
+backend/ml/models/*.pth
+
+# Datasets
+backend/deepfake_dataset/
+backend/deepfake_small/
+
+# Uploaded user files
+backend/uploads/
+
+# Env / secrets (if you ever add them)
+.env
+.env.*

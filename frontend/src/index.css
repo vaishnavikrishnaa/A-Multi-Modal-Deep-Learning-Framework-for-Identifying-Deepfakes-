@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* GLOBAL LOOK */
+body {
+  @apply bg-white text-gray-900;
+  font-family: "Inter", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+/* Soft gold highlight */
+.gold-text {
+  color: #d4a017;
+}
+
+/* Magenta accent */
+.magenta-text {
+  color: #d63384;
+}
+
+/* For sections with soft grey background */
+.section-bg {
+  background-color: #f8f8f8;
+}
+
+/* Elegant card style */
+.card {
+  @apply rounded-2xl shadow-md p-6 border border-gray-200;
+}
+
+/* Heading style */
+.heading {
+  @apply text-3xl font-bold mb-4;
+}
