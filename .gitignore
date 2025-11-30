@@ -37,3 +37,10 @@ backend/uploads/
 # Env / secrets (if you ever add them)
 .env
 .env.*
+
+
+*.zip
+deepfake_dataset/
+deepfake_small/
+140k-real-and-fake-faces.zip
+
