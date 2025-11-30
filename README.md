@@ -60,6 +60,8 @@ Swagger Docs:
 http://127.0.0.1:8000/docs
 
 🎨 Frontend Setup (React + Vite)
+
+
 cd frontend
 npm install
 npm run dev
