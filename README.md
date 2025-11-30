@@ -39,14 +39,19 @@ Optimizer: Adam
 Input Size: 224 × 224
 
 ⚙️ Backend Setup (FastAPI)
+
 1️⃣ Create Virtual Environment
+
 python3 -m venv venv
+
 source venv/bin/activate
 
 2️⃣ Install Dependencies
+
 pip install -r requirements.txt
 
 3️⃣ Start Backend Server
+
 uvicorn main:app --reload
 
 
@@ -63,7 +68,9 @@ http://127.0.0.1:8000/docs
 
 
 cd frontend
+
 npm install
+
 npm run dev
 
 
